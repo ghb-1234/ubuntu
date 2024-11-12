@@ -16,7 +16,7 @@ RUN apt-get install -y nginx
 # 其他指令...
 
 # 暴露端口
-EXPOSE <span class="token number">80
+EXPOSE 80
 
 # 启动服务
 CMD service mysql start && service redis-server start && nginx -g 'daemon off;'
